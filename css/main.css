@@ -9,8 +9,7 @@
 .container{
     width: 1200px;
     margin: 0 auto;
-    padding: 0 auto;
-    /* padding: 0 30px; */
+    padding: 0 30px;
 }
 
 body{
@@ -297,14 +296,13 @@ body{
 }
 
 .sale{
-    margin-bottom: 50px;
+    margin-bottom: 110px;
 }
 
 .propers-box{
     padding-left: 80px;
     background: #063183;
     border-radius: 20px;
-    /* width: 1020px; */
     height: 380px;
     position: relative;
 }
