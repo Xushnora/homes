@@ -3,37 +3,220 @@
 *::before{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 .container{
     width: 1200px;
     margin: 0 auto;
+    padding: 0 auto;
+    /* padding: 0 30px; */
 }
 
 body{
-    font-family: sans-serif;
+    font-family: 'Poppins', sans-serif;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background-color: rgb(168, 164, 164);
+    background-color: #fff;
 }
 
-.portion{
+.header-block{
+    padding-top: 38px;
+}
+
+#site-hero{
+    padding-bottom: 80px;
+}
+
+.background{
+    background-color: #cce4f7;
+}
+
+.grow{
+    flex-grow: 1;
+}
+
+.nav-item{
+    margin-left: 65px;
+}
+
+.nav-link{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #4f5361;
+}
+
+.btn-link{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #0f1b4c;
+    margin-right: 18px;
+}
+
+.hero-btn{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: #fff;
+    padding: 9px 20px;
+    background: #0f1b4c;
+    border-radius: 8px;
+}
+
+.besnik-portion{
+    padding-top: 40px;
+}
+
+.besnik-spn{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.01em;
+    color: #687691;
+    margin-bottom: 8px;
+}
+
+.title-besnik{
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 76px;
+    color: #000336;
+    margin-bottom: 30px;
+}
+
+.besnik-text{
+    font-size: 18px;
+    line-height: 32px;
+    text-transform: capitalize;
+    color: #5a6473;
+    margin-bottom: 40px;
+}
+
+.about-btn{
+    font-family: 'Poppins';
+    padding: 15px 37px;
+    color: #fff;
+    background-color:  #000336;
+    border-radius: 12px;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 19px;
+    text-align: center;
+}
+
+#customers{
+    padding-top: 91px;
+    padding-bottom: 94px;
+}
+
+.tirnoq-img{
+    margin-bottom: 30px;
+}
+
+.customer-heading{
+    font-family: 'Josefin Sans';
+    font-size: 44px;
+    line-height: 60px;
+    letter-spacing: 0.01em;
+    color: #00788a;
+    width: 311px;
+    height: 120px;
+    margin-bottom: 30px;
+}
+
+.cust-img{
     position: relative;
 }
 
-.statistik{
-    border: 2px solid transparent;
+.arrow-img{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.manager-title{
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.0025em;
+    color: #083038;
+}
+
+.manager-text{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.0025em;
+    color: #083038;
+    opacity: 0.5;
+    margin-bottom: 2px;
+}
+
+.mng{
+    margin-left: 16px;
+}
+
+.in-manager{
+    margin-bottom: 36px;
+}
+
+.custo-text{
+    font-style: italic;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 34px;
+    letter-spacing: 0.02em;
+    color: #083038;
+    opacity: 0.8;
+    margin-bottom: 35px;
+}
+
+.more-btn{
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 16px;
+    color: #00bfc4;
+    display: inline-block;
+    position: relative;
+}
+
+.icon{
+    width: 12px;
+    height: 6px;
+    position: absolute;
+    top: 25%;
+    left: 100px;
+}
+
+.status-option{
+    position: relative;
+}
+
+
+.text-none{
+    text-decoration: none;
+}
+
+.list-sty{
+    list-style-type: none;
+}
+
+.status-block{
     width: 239px;
     height: 252px;
     border-radius: 0px 0px 12px 12px;
-    background-color: #fff;
+    background-color: #fdfdfd;
     display: inline-block;
     position: absolute;
-    top: 9%;
+    top: 74px;
+    padding: 45px 25px;
 }
 
-.stk-tt{
+.stk-title{
     font-weight: bold;
     font-size: 26px;
     line-height: 26px;
@@ -49,9 +232,113 @@ body{
     margin-bottom: 25px;
 }
 
-.title{
+.hr-one{
+    display: inline-block;
+    background-color: #e9e9e9;
+    width: 194px;
+    height: 2px;
+    margin-bottom: 26px;
+}
+
+.users{
+    width: 220px;
+    height: 90px;
+    position: relative;
+    bottom: 20px;
+    right: 15px;
+}
+
+.texts{
+    position: absolute;
+    top: 130px;
+    left: 681px;
+}
+
+.hr-title{
+    width: 269px;
+    height: 142px;
     font-weight: 600;
     font-size: 35px;
     line-height: 45px;
     color: #000339;
+    margin-bottom: 20px;
+}
+
+.hr-text{
+    width: 309px;
+    height: 150px;
+    font-size: 16px;
+    line-height: 30px;
+    color: #5a6473;
+}
+
+.hr{
+    display: inline-block;
+    margin-bottom: 10px;
+    width: 41px;
+    height: 4px;
+    background: #000339;
+    border-radius: 12px;
+}
+
+.sale-title{
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 64px;
+    color: #000;
+    margin-bottom: 22px;
+}
+
+.sale-text{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #7b8087;
+}
+
+.sale{
+    margin-bottom: 50px;
+}
+
+.propers-box{
+    padding-left: 80px;
+    background: #063183;
+    border-radius: 20px;
+    /* width: 1020px; */
+    height: 380px;
+    position: relative;
+}
+
+.fin-propers{
+    position: relative;
+    top: -50px;
+    left: 0;
+    z-index: 10;
+}
+
+.propers-title{
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 35px;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.propers-text{
+    font-size: 16px;
+    line-height: 30px;
+    color: #fff;
+    opacity: 0.75;
+    margin-bottom: 20px;
+}
+
+.propers-link{
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 19px;
+    text-align: center;
+    color: #002366;
+    padding: 15px 22px;
+    border-radius: 12px;
+    background-color: #fff;
 }
